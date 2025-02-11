@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   web:
+    image: ibrahimsabouh/iris-predictor:latest
     build: .
     ports:
       - "8000:8000"
